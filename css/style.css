@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.parent{
+    
+    
+}
+
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container p{
+    font-family: 'Open';
+    font-size: 16px;
+}
+
+.site-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-title img{
+    margin-left: 100px;
+}
+
+.first-title .list-items{
+    margin-right: 100px;
+}
+
+.list-items{
+    display: flex;
+    justify-content: space-between;
+
+    width: 700px;
+    height: 35px;
+    list-style-type: none;
+}
+
+.list-item{
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+}
+
+.list-item:hover {
+
+    border-bottom: 1px solid rgb(92, 90, 90);
+}
+
+.list-item>a{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-grow: 1;
+    text-decoration: none;
+    color: black;
+}
+
+.list-item-number{
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    
+    width: 160px;
+    height: 30px;
+    background-color: #00BAFC;;
+    border-radius: 8px;
+
+}
+.list-item-number:hover{
+    background: white;
+    border: blue 2px solid;
+    color: red;
+}
+
+.list-item-number a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.drop-down-menu{
+    list-style-type: none;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: none;
+}
+
+.list-item:hover .drop-down-menu {
+    display: block;
+}
+
+.menu-item{
+    width: 100%;
+    padding: 5px;
+}
+
+.drop-down-menu a{
+    text-decoration: none;
+    color: black;
+    width: 10%;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0;
+    transition: all 0.3s ease;
+
+}
+
+.drop-down-menu a:hover{
+    background-color: grey;
+    color: black;
+}
+
+.list-item:hover .drop-down-menu a{
+    font-size: 16px;
+    margin: 1px;
+    font-family:'Open Sans', sans-serif ;
+    font-weight: 10px;
+}
+
+
+.second-block{
+    /* width: 1300px; */
+    display: flex;
+    justify-content: space-between;
+    
+    /* margin-left: 100px; */
+    border-top: rgba(0,0,0,0.1) 0.5px solid;
+    
+    
+}
+
+.text-submit{
+    width: 470px;
+    height: 224px;
+     margin-right: 100px;
+     margin-top: 55px;
+    /* margin: 100px 80px;  */
+    /* border:white 0.5px solid; */
+ }
+
+.text-submit h2{
+    position: static;
+    width: 470px;
+    height: 78px;
+    left: 0px;
+    top: 0px;
+    font-family:  'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+
+
+.text-submit .btn1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+
+    position: static;
+    width: 232px;
+    height: 40px;
+    left: 0px;
+    top: 184px;
+
+    color: white;
+    background:#00BAFC;;
+    border-radius: 5px;
+
+}
+
+.video-kushit{
+    margin-top: 80px;
+    margin-left: 67px;
+}
+
+.three-block-text{
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.three-block-text p{
+    width: 719px;
+    height: 48px;
+    font-size: 16px;
+    margin-left: 190px;
+
+    
+}
+
+.three-block-ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+
+    padding-inline-start: 0;
+}
+
+.three-block-ul li{
+    width: 320px;
+    height: 260px;
+    
+    margin: 22px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+}
+
+.three-block-ul img{
+    width: 203px;
+    height: 130px;
+}
+
+.three-block-btn .first{
+
+    border: none;
+    width: 167px;
+    height: 40px;
+    background: #00BAFC;;
+    color: white;
+    font-size: 15px;
+}
+
+.three-block-btn a{
+    color: #00BAFC;;
+}
+.three-block-btn{
+    text-align: center;
+}
+
+
+
+.tugadi{
+    height: 200px;
+}
